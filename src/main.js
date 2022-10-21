@@ -120,7 +120,7 @@ function updateCardNumber(number) {
 }
 
 expirationMasked.on("accept", () => {
-  updateExpirationDate(expirationMasked)
+  updateExpirationDate(expirationMasked.value)
 })
 
 function updateExpirationDate(date) {
